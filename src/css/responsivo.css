@@ -1,0 +1,250 @@
+@media (max-width: 1030px){
+
+    header .container {
+        flex-direction: row;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .banner .container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .descricao-escola {
+        width: 700px;
+        margin-top: 50px;
+    }
+
+    .descricao-escola p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .foto-hogwarts img{
+        margin-bottom: 50px;
+        width: 800px;
+    }
+
+    .casas-hogwarts .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .casas-hogwarts .selecione-casas {
+        margin-top: 50px;
+    }
+
+
+    .lista-casas .casa img{
+        width: 180px;
+    }
+
+    .descricao-casa .descricao{
+        font-size: 15px;
+    }
+
+    .recrutamento .container {
+        align-items: center;
+    }
+
+    .descricao-recrutamento p {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .foto-carta img{
+        width: 600px;
+    }
+
+    .saiba-mais a{
+        margin-left: 40%;
+    }
+
+    .terms{
+        margin-left: 40%;
+    }
+}
+
+
+/* ....................................................................................................... */
+@media (max-width: 800px){
+    #banner {
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .footer_menu,
+    .footer_area {
+        flex-direction: column;
+    }
+
+    .footer_areaitem {
+        padding: 20px;
+    }
+
+    .footer_copy {
+        font-size: 10px;
+        height: 30px;
+        line-height: 30px;
+        padding: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+/* .......................................................................................................... */
+@media (max-width: 650px) {
+    .container {
+        width: auto;
+    }
+
+    .descricao-escola {
+        width: 550px;
+        margin-top: 50px;
+    }
+
+    .descricao-escola p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .foto-hogwarts img{
+        margin-bottom: 50px;
+        width: 550px;
+    }
+
+    .casas-hogwarts .selecione-casas {
+        margin-top: 50px;
+    }
+
+    .lista-casas .casa img{
+        width: 180px;
+    }
+
+    .descricao-casa {
+        margin-top: 100px;
+    }
+
+    .descricao-casa .descricao{
+        font-size: 15px;
+    }
+
+    .descricao-recrutamento p {
+        font-size: 15px;
+        margin-top: 50px;
+        width: 500px;
+    }
+
+    .foto-carta img{
+        width: 500px;
+    }
+
+    .saiba-mais a{
+        margin-left: 40%;
+    }
+
+    .terms{
+        margin-left: 0;
+    }
+}
+
+/* ...................................................................................................... */
+@media (max-width: 450px) {
+
+    .container {
+        width: auto;
+    }
+
+    .descricao-escola {
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    .descricao-escola p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .foto-hogwarts img{
+        margin-bottom: 50px;
+        width: 390px;
+    }
+
+    .casas-hogwarts .selecione-casas {
+        margin-top: 150px;
+    }
+
+    .lista-casas .casa img{
+        width: 180px;
+    }
+
+    .descricao-casa {
+        margin-top: 100px;
+    }
+
+    .descricao-casa .descricao{
+        font-size: 15px;
+    }
+
+    .descricao-recrutamento p {
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .foto-carta img{
+        width: 300px;
+    }
+
+    .saiba-mais a{
+        margin-left: 30%;
+    }
+
+    .terms{
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: auto;
+    }
+}

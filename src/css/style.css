@@ -1,0 +1,286 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+    background-color: black;
+    color: white;
+}
+
+body::before{
+    content: "";
+    background-image: url(../img/desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+
+.tarja-preta {
+    position: absolute;
+    background-color: rgb(133, 133, 133);
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.logo-hogwarts {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-hogwarts img{
+    display: flex;
+    height: 80px;
+}
+
+.nome-escola {
+    display: flex;
+    width: 170px;
+    align-items: center;
+    padding: 10px;
+}
+
+.nome-escola h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d4d4d4;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+/* ..................................................................................................... */
+
+.banner {
+    min-height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .descricao-escola {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+/* ..................................................................................................................... */
+
+.img-fundo{
+    background-image: url(../img/desktop2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+.casas-hogwarts {
+    display: flex;
+	align-items: center;
+	gap: 20px;
+    min-height: 100vh;
+    max-width: 1360px;
+    justify-content:center;
+}
+
+.selecione-casas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	gap: 20px;
+    justify-content: center;
+}
+
+.selecione-casas .titulo-selecione{
+    font-size: 23px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #47f4ff;
+	width: 100%;
+	text-align: center;
+}
+.selecione-casas  {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 400px;
+	gap: 25px;
+}
+
+.selecione-casas .lista-casas {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.lista-casas .casa img{
+    width: 150px;
+}
+
+.selecione-casas .lista-casas .casa.selecionada {
+	box-shadow: 0px 0px 15px 2px #e4eaf1;
+}
+
+.descricao-casa{
+    text-align: center;
+    max-height: 530px;
+    max-width: 600px;
+}
+
+.descricao-casa img {
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.descricao-casa .nome-casa {
+    border-bottom: 2px solid #47f4ff;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.descricao-casa .descricao {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-topo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #292929;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 2px 2px 3px white;
+    scroll-behavior: smooth;
+}
+
+/* .................................................................................................... */
+
+.recrutamento {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-carta-fundo{
+    background-image: url(../img/fundo-carta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.foto-carta img{
+    align-items: center;
+    margin-top: 50px;
+}
+
+.descricao-recrutamento {
+    margin-left: 50px;
+    line-height: 30px;
+    font-size: 14px;
+}
+/* ......................................................................................................... */
+
+.saiba-mais {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 130px;
+    background-color: black;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.saiba-mais a{
+    color: #d4d4d4;
+    width: 150px;
+    text-transform: uppercase;
+    margin-left: 600px;
+}
+
+.saiba-mais a:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+}
+
+/* ......................................................................................................... */
+
+.footer-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: black;
+}
+
+.terms {
+    font-size: 10px;
+    margin-left: 390px;
+}
